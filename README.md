@@ -5,6 +5,6 @@ this repo for python app
 
 # Steps
  # Install Dependecies
- 1. python -m pip install -r reqirments.txt
+ 1. python -m pip install -r reqirments.txt`
  # Run the app 
- 1. 
+ 1. python3 -m uvicorn app:app --host=0.0.0.0 --port=8000
