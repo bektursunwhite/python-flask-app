@@ -23,6 +23,8 @@ USER pythonuser
 
 COPY . .
 
+RUN python -m pip install -r reqirments.txt
+
 EXPOSE 8000
 
 CMD [ "python3", "-m", "unicorn", "app:app", "host=0.0.0.0", "port=8000" ]
